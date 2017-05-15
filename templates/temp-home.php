@@ -14,15 +14,22 @@
 
 <!-- content » home -->
 
+<? if (have_posts() ) : while (have_posts()) : the_post(); ?>
+
   <div class="cover">
-
-    <? if (have_posts() ) : while (have_posts()) : the_post(); ?>
-      <article>
-        <h1><span class="fancy-cookie">Hello</span>my name is <span class="fancy-cookie">Jane</span> and I'm a <span class="fancy-cookie">UX Developer</span></h1>
-
-      </article>
-    <? endwhile; endif; ?>
-
+    <article>
+      <h1>
+        <span class="fancy-cookie">Hello</span>my name is
+        <span class="fancy-cookie">Jane</span> and I'm a
+        <span class="fancy-cookie">UX Developer</span>
+      </h1>
+    </article>
   </div>
 
+  <section class="content">
+    <h2>What's that?</h2>
+    <p>Who knows!</p>
+  </section>
+  
+<? endwhile; endif; ?>
 <? get_footer(); ?>
