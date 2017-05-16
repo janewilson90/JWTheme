@@ -15,7 +15,7 @@
     <meta property="og:title" content="<? bloginfo('name'); ?>">
     <meta property="og:description" content="<? bloginfo('description'); ?>">
     <meta property="og:url" content="<? bloginfo('url'); ?>">
-    <meta property="og:image" content="<? bloginfo('template_url') ?>/dist/images/ogimg.jpg">
+    <meta property="og:image" content="<? echo get_stylesheet_directory_uri(); ?>/dist/images/ogimg.jpg">
     <meta property="og:image:width" content="">
     <meta property="og:image:height" content="">
     <? wp_head(); ?>

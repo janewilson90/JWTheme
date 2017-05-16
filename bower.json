@@ -1,12 +1,12 @@
 {
-  "name": "wpseed",
+  "name": "jwtheme",
   "version": "1.0.0",
   "authors": [
-    "Flurin Dürst <flurin@flurinduerst.ch>"
+    "Jane Wilson <mail@janeawilson.co.uk>"
   ],
   "main": "gulpfile.js",
   "license": "MIT",
-  "homepage": "//wpseed.org",
+  "homepage": "janeawilson.co.uk",
   "ignore": [
     "**/.*",
     "node_modules",
